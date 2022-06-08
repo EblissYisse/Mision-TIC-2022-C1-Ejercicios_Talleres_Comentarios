@@ -139,4 +139,47 @@ def apto_o_apta (Sexo = str , Estatura = float, Edad = int):
 print (apto_o_apta(Sexo, Estatura, Edad))
 
 
+#Ejercicio3
+#una funcion tiene 
+#Datos de entrada
+#Proceso
+#salida
+#intento 1 con funciones
+def EDAD_NOMBRE (EDAD : int  , NOMBRE : str)
 
+if EDAD < 18:
+
+    Mensaje : "por lo tanto es menor de edad"
+else
+    
+    Mensaje :"por lo tanto es mayor de edad"
+    
+return f"La edad de: {NOMBRE} es {EDAD} {Mensaje}"
+
+#Prueba del algoritmo
+EDAD = int (input("Ingrese su edad : "))
+NOMBRE = str (input("Ingrese su nombre : "))
+
+print(EDAD(EDAD))
+
+#intento dos con solo condicionales
+
+NOMBRE = str(input("Ingrese su nombre:"))
+EDAD = int(input("Ingrese su edad: "))
+
+if EDAD < 18:
+    print(f"El usuario ingresado de nombre {NOMBRE} tiene {EDAD} años, por lo tanto es menor de edad.")
+else:
+    print(f"El usuario ingresado de nombre {NOMBRE} tiene {EDAD} años, por lo tanto es mayor de edad.")
+    
+   
+   #Ejercicio 4
+
+Num = int(input ("Ingrese un numero: "))
+resto = Num % 2
+
+if resto == 0: 
+    
+    print(f"El numero ingresado {Num} es par")
+else:
+    print(f"El numero ingresado {Num} no es par")
