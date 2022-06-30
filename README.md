@@ -7,4 +7,5 @@ Este repositorio contiene los ejercicios realizados en las clases de fundamentos
 MENU
 
 1. NOTAS DE CLASE
-2.
+2. EJERCICIOS 
+3. CLASES, COMENTARIOS, EJERCICIOS FUERA DE LAS CLASES HABITUALES.
